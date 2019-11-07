@@ -2,7 +2,7 @@
 
 A program that can merge a series of files containing a JSON array of objects into a single file containing one JSON object
 
-Instructions:
+#Instructions:
 
 Run the JsonMerge.java file
 
@@ -17,7 +17,7 @@ is allowed to be.
 e.Destination Path
 
 
-Basic Functionalities:
+#Basic Functionalities:
 
 1. The utility will read all files in the Folder Path that begin with the Input File 
 Base Name, and process them in increasing order of the number added as a 
@@ -28,7 +28,7 @@ Base Name as a prefix, and a counter as a suffix.
 4. Each output file will contain a proper JSON array.
 
 
-Additional Cases handled 
+#Additional Cases handled 
 1. Nested array of objects
  		eg:
  			employee:[{name:emp1,phoneNos:[9988199,9988102]}]
