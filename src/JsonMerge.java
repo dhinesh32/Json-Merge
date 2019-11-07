@@ -29,15 +29,15 @@ public class JsonMerge {
 		
 		//getting all the necessary inputs
 		Scanner cin=new Scanner(System.in);
-		System.out.println("Eter your source folder  path");
+		System.out.println("Enter your source folder  path");
 		String srcPath=cin.next();
-		System.out.println("Eter your destination folder  path");
+		System.out.println("Enter your destination folder  path");
 		String destPath=cin.next();
-		System.out.println("Eter input file base name");
+		System.out.println("Enter input file base name");
 		String inputPrefix=cin.next();
-		System.out.println("Eter output  file base name");
+		System.out.println("Enter output  file base name");
 		String outputPrefix=cin.next();
-		System.out.println("Eter max merge file size in kilo bytes");
+		System.out.println("Enter max merge file size in kilo bytes");
 		int maxSize=cin.nextInt();
 		
 		FileHandler fileHandler=new FileHandler();
